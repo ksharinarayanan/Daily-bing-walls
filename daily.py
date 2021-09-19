@@ -32,6 +32,8 @@ def randomImage ():
     random.seed(time.perf_counter())
     picture = root_dir + (random.choice(ls))
 
+    print ("Setting " + picture)
+
     command = "hsetroot -cover " + picture
 
     os.system(command)
