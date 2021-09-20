@@ -2,7 +2,7 @@
 
 A script to set the daily bing image as the wallpaper. It can also set from a random set of previously fetched wallpapers.
 
-```sh
+```
 usage: daily.py [-h] [--random] [-p] [-d ROOT_DIR] [--viewer VIEWER]
                 [--setter {feh,nitrogen,hsetroot}]
 
@@ -18,6 +18,7 @@ optional arguments:
 ```
 
 > You may change the default directory and default application by making small edits to the `daily.py` file.
+
 ## Dependencies
 
 * python libraries
